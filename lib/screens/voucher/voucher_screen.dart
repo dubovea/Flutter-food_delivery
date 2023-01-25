@@ -17,7 +17,7 @@ class VoucherScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Restaraunt Listings'), actions: []),
       body: Center(
-          child: TextButton(
+          child: ElevatedButton(
         onPressed: () {
           Navigator.pushNamed(context, '/');
         },

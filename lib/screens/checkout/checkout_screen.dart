@@ -17,7 +17,7 @@ class CheckoutScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Checkout'), actions: []),
       body: Center(
-          child: TextButton(
+          child: ElevatedButton(
         onPressed: () {
           Navigator.pushNamed(context, '/');
         },

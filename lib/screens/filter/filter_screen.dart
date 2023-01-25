@@ -17,7 +17,7 @@ class FilterScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Filter'), actions: []),
       body: Center(
-          child: TextButton(
+          child: ElevatedButton(
         onPressed: () {
           Navigator.pushNamed(context, '/');
         },

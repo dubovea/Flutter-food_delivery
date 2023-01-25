@@ -17,7 +17,7 @@ class LocationScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Location'), actions: []),
       body: Center(
-          child: TextButton(
+          child: ElevatedButton(
         onPressed: () {
           Navigator.pushNamed(context, '/');
         },

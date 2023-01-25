@@ -17,7 +17,7 @@ class RestarauntDetailScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Restaraunt Details'), actions: []),
       body: Center(
-          child: TextButton(
+          child: ElevatedButton(
         onPressed: () {
           Navigator.pushNamed(context, '/');
         },

@@ -17,7 +17,7 @@ class DeliveryTimeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Delivery Time'), actions: []),
       body: Center(
-          child: TextButton(
+          child: ElevatedButton(
         onPressed: () {
           Navigator.pushNamed(context, '/');
         },

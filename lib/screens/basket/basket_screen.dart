@@ -17,7 +17,7 @@ class BasketScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Basket'), actions: []),
       body: Center(
-          child: TextButton(
+          child: ElevatedButton(
         onPressed: () {
           Navigator.pushNamed(context, '/');
         },
