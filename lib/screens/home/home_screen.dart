@@ -17,9 +17,11 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(title: const Text('Home'), actions: []),
-        body: SvgPicture.asset(
-          '/assets/burger.svg',
-          height: 100,
+        body: Center(
+          child: SvgPicture.asset(
+            'assets/images/burger.svg',
+            height: 100,
+          ),
         ));
   }
 }
